@@ -22,7 +22,7 @@ stages:
         vmImage: 'vs2017-win2016'
       steps:
 
-      - script: |
+      - script: >
           echo "TEEESTTTTTT LINEEEEEEE"
           npx -p semantic-release -p @semantic-release/git  -p semantic-release-ado  semantic-release
           echo "HELLOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO"
