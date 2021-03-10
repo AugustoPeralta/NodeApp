@@ -13,6 +13,7 @@
    "branches": [
      "master"
    ], 
+    
    "plugins": [
      ["semantic-release-ado", {
        "setOnlyOnRelease": false
