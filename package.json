@@ -1,5 +1,5 @@
 {
-  "name": "semantic-release-with-github-actions",
+  "name": "augustodemo",
   "version": "0.0.0-development",
   "main": "index.js",
   "devDependencies": {
