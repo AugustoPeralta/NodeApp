@@ -11,14 +11,11 @@
   },
  
   "release": {
-    "branches": [
-      "master"
-    ]  
-  },
-  
-  "plugins": [
-    ["semantic-release-ado", {
-       "setOnlyOnRelease": false
-     }]
-  ]
+    "branches": "master",
+    "plugins": [
+      ["semantic-release-ado", {
+         "setOnlyOnRelease": false
+       }]
+    ]
+  }
 }
