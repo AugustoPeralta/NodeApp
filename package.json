@@ -9,12 +9,11 @@
   "scripts": {
     "test": "jest test.js"
   },
-   
-   "plugins": [
-     ["semantic-release-ado", {
-       "setOnlyOnRelease": false
-     }]
-   ]
-  
-
+  "release": {
+         "plugins": [
+       ["semantic-release-ado", {
+         "setOnlyOnRelease": false
+       }]
+     ]
+   }
 }
