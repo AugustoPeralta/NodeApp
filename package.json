@@ -15,12 +15,13 @@
     "branches": [
       "master"
     ],
-   "plugins": [
-     "semantic-release-ado",
-     {
-       "setOnlyOnRelease": false
-     }
-   ]
+  
+    "plugins": [
+      "semantic-release-ado",
+      {
+        "setOnlyOnRelease": false
+      }
+    ]
   }    
 
 }
