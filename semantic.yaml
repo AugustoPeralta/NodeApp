@@ -34,17 +34,17 @@ stages:
       - script: echo $(semantic.nextRelease)
         displayName: 'Show next version'
 
-      - powershell: |
-          echo "##vso[task.setvariable variable=versionNumber;isOutput=true]$(nextRelease)"
-        name: setOutputVar
+#      - powershell: |
+#          echo "##vso[task.setvariable variable=versionNumber;isOutput=true]$(nextRelease)"
+#        name: setOutputVar
 
-    - job: Job2
-      dependsOn: Build
-      pool:
-        vmImage: 'vs2017-win2016'
-      variables:
-        versionNumber: $[ dependencies.Build.outputs['setOutputVar.versionNumber'] ]
+#    - job: Job2
+#      dependsOn: Build
+#      pool:
+#        vmImage: 'vs2017-win2016'
+#      variables:
+#        versionNumber: $[ dependencies.Build.outputs['setOutputVar.versionNumber'] ]
     
-      steps:
-      - script: echo $(versionNumber)
-        displayName: 'Show next version'
+#      steps:
+#      - script: echo $(versionNumber)
+#        displayName: 'Show next version'
