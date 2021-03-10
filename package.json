@@ -9,11 +9,7 @@
   "scripts": {
     "test": "jest test.js"
   },
-  "release": {
-   "branches": [
-     "master"
-   ], 
-    
+  "release": {    
    "plugins": [
      ["semantic-release-ado", {
        "setOnlyOnRelease": false
