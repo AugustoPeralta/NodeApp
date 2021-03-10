@@ -1,0 +1,3 @@
+variables:
+  - name: GitHubToken
+    value: 7a17c5d67b7db5c7180ea3443c8bbfcfd103236b
