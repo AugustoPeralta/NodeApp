@@ -23,6 +23,7 @@ stages:
       steps:
 
       - script: |
+          echo "TEEESTTTTTT LINEEEEEEE"
           npx -p semantic-release -p @semantic-release/git  -p semantic-release-ado  semantic-release
           echo "HELLOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO"
           echo "##vso[task.setvariable variable=versionNumber]$(nextRelease)"
