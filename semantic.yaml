@@ -11,9 +11,6 @@ pr:
 resources:
   - repo: self
 
-variables:
-- name: GitHubToken
-  value: c7894ef0363c6599419f56f686301874c6917b17 
 
 stages:
   - stage: Tag
