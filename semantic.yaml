@@ -11,11 +11,6 @@ pr:
 resources:
   - repo: self
 
-variables:
-  - template: variables.yaml
-
-
-
 stages:
   - stage: Tag
     displayName: Semantic release
