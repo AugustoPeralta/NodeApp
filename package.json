@@ -4,18 +4,21 @@
   "main": "index.js",
   "devDependencies": {
     "jest": "^25.1.0",
-    "semantic-release": "^17.0.4"
+    "semantic-release": "^17.0.4",
+    "semantic-release-ado": "^1.2.2"
   },
   "scripts": {
     "test": "jest test.js"
   },
- 
   "release": {
     "branches": "master",
     "plugins": [
-      ["semantic-release-ado", {
-         "setOnlyOnRelease": false
-       }]
+      [
+        "semantic-release-ado",
+        {
+          "setOnlyOnRelease": false
+        }
+      ]
     ]
   }
 }
