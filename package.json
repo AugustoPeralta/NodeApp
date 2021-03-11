@@ -10,7 +10,6 @@
     "test": "jest test.js"
   },
   "release": {
-    "branches": "master",
     "plugins": [
       [
         "semantic-release-ado",
