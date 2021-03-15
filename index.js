@@ -1,4 +1,4 @@
-// New adding some small change
+// Some Other change
 function add (a, b) {
   return a + b
 }
