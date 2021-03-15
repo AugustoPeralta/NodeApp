@@ -16,7 +16,7 @@
       "master"
     ],
     "plugins": [
-        "semantic-release-ado",
+        "semantic-release-ado"
     ]
   }
 }
