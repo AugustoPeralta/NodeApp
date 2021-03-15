@@ -3,25 +3,25 @@
   "version": "0.0.0-development",
   "main": "index.js",
   "devDependencies": {
+    "@semantic-release/commit-analyzer": "^8.0.1",
     "jest": "^25.1.0",
     "semantic-release-ado": "^1.2.2"
   },
   "scripts": {
     "test": "jest test.js"
   },
-  
   "release": {
     "branches": [
       "master"
     ],
     "plugins": [
-        "@semantic-release/commit-analyzer",
-        "@semantic-release/release-notes-generator",
-        "@semantic-release/changelog",
-        "@semantic-release/github",
-        "@semantic-release/git",
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      "@semantic-release/changelog",
+      "@semantic-release/github",
+      "@semantic-release/git",
       [
-        "semantic-release-ado",
+      "semantic-release-ado",
         {
           "setOnlyOnRelease": false
         }
