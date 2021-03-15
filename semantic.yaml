@@ -22,7 +22,7 @@ stages:
         vmImage: 'vs2017-win2016'
       steps:
 
-      - script: npx -p semantic-release -p @semantic-release/git  -p semantic-release-ado  semantic-release && echo "##vso[task.setvariable variable=versionNumber]$(nextRelease)
+      - script: npx -p semantic-release -p @semantic-release/changelog -p @semantic-release/git  -p semantic-release-ado  semantic-release && echo "##vso[task.setvariable variable=versionNumber]$(nextRelease)
         env: { GH_TOKEN: $(GitHubToken) }
         displayName: 'Semantic release'
         name: semantic
