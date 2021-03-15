@@ -3,7 +3,6 @@
   "version": "0.0.0-development",
   "main": "index.js",
   "devDependencies": {
-    "@semantic-release/changelog": "^5.0.1",
     "@semantic-release/commit-analyzer": "^8.0.1",
     "jest": "^25.1.0",
     "semantic-release": "^17.4.2",
@@ -19,22 +18,10 @@
     "plugins": [
       "@semantic-release/commit-analyzer",
       [
-      "@semantic-release/changelog",
-       {
-         "changelogFile": "docs/CHANGELOG.md"
-       }
-      ],
-      [
-      "@semantic-release/git",
-       {
-         "assets": ["docs/CHANGELOG.md"]
-       }
-      ],
-      [
-      "semantic-release-ado",
-       {
-         "setOnlyOnRelease": false
-       }
+        "semantic-release-ado",
+        {
+          "setOnlyOnRelease": false
+        }
       ]
     ]
   }
