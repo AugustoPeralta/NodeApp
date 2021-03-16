@@ -1,3 +1,10 @@
+# [1.20.0](https://github.com/AugustoPeralta/NodeApp/compare/v1.19.0...v1.20.0) (2021-03-16)
+
+
+### Features
+
+* adding other job ([2e884d2](https://github.com/AugustoPeralta/NodeApp/commit/2e884d2d69e6e8297c3ef18b910cd9e42188dfbc))
+
 # [1.19.0](https://github.com/AugustoPeralta/NodeApp/compare/v1.18.0...v1.19.0) (2021-03-16)
 
 
