@@ -1,3 +1,10 @@
+# [1.19.0](https://github.com/AugustoPeralta/NodeApp/compare/v1.18.0...v1.19.0) (2021-03-16)
+
+
+### Features
+
+* It's working ([bfebaa2](https://github.com/AugustoPeralta/NodeApp/commit/bfebaa20e5cea029c9e6c626a4567b5e073fc565))
+
 # [1.18.0](https://github.com/AugustoPeralta/NodeApp/compare/v1.17.0...v1.18.0) (2021-03-16)
 
 
