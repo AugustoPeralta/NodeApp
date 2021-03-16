@@ -1,6 +1,6 @@
 {
   "name": "augustodemo",
-  "version": "0.0.0-development",
+  "version": "1.18.0",
   "main": "index.js",
   "devDependencies": {
     "@semantic-release/commit-analyzer": "^8.0.1",
@@ -12,7 +12,9 @@
     "test": "jest test.js"
   },
   "release": {
-    "branches": [ "master" ],
+    "branches": [
+      "master"
+    ],
     "plugins": [
       "@semantic-release/commit-analyzer",
       "@semantic-release/release-notes-generator",
